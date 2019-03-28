@@ -24,6 +24,7 @@ public class ClientSmtp {
 
         BufferedWriter out = new BufferedWriter(new OutputStreamWriter(clientSocket.getOutputStream()));
 
+
         out.write(this.seveurSmtp);
         modifiedSentence = getString(modifiedSentence, inFromServer, out);
         if (modifiedSentence.equals("erreur"))

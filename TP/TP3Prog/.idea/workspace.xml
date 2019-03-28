@@ -2,6 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8d7fd7d7-4c83-45c9-bc91-cc89e98e168e" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/ClientPOP3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/MainClientPOP3.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../Exemple Config Evolution/Capture-1.png" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../../Exemple Config Evolution/Capture-2.png" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../../Exemple Config Evolution/Capture-3.png" beforeDir="false" />
@@ -11,6 +13,8 @@
       <change beforePath="$PROJECT_DIR$/../../Exemple Config Evolution/Capture-7.png" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../../Exemple Config Evolution/Capture-8.png" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../../Exemple Config Evolution/Capture.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ClientSmtp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ClientSmtp.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/MainClientSmtp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MainClientSmtp.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -23,10 +27,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/ClientSmtp.java">
+        <entry file="file://$PROJECT_DIR$/src/ClientPOP3.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-901">
-              <caret line="33" column="33" lean-forward="true" selection-start-line="33" selection-start-column="33" selection-end-line="33" selection-end-column="33" />
+            <state relative-caret-position="313">
+              <caret line="78" column="32" selection-start-line="78" selection-start-column="32" selection-end-line="78" selection-end-column="32" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -35,10 +39,19 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/MainClientSmtp.java">
+        <entry file="file://$PROJECT_DIR$/src/MainClientPOP3.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="75">
-              <caret line="5" column="44" selection-start-line="5" selection-start-column="44" selection-end-line="5" selection-end-column="44" />
+              <caret line="5" column="36" selection-start-line="5" selection-start-column="36" selection-end-line="5" selection-end-column="36" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/MainClientSmtp.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="45">
+              <caret line="3" column="3" lean-forward="true" selection-start-line="3" selection-start-column="3" selection-end-line="10" selection-end-column="7" />
             </state>
           </provider>
         </entry>
@@ -92,11 +105,13 @@
         <option value="$PROJECT_DIR$/src/MainServerThreadPool.java" />
         <option value="$PROJECT_DIR$/src/TaskServerEcho.java" />
         <option value="$PROJECT_DIR$/src/ClientSmtp.java" />
+        <option value="$PROJECT_DIR$/src/MainClientPOP3.java" />
         <option value="$PROJECT_DIR$/src/MainClientSmtp.java" />
+        <option value="$PROJECT_DIR$/src/ClientPOP3.java" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="4">
     <option name="y" value="26" />
     <option name="width" value="840" />
     <option name="height" value="1000" />
@@ -130,8 +145,9 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553763260154" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553770597274" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
@@ -148,9 +164,16 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.MainClientSmtp">
+  <component name="RunManager" selected="Application.MainClientPOP3">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
+      <module name="untitled" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MainClientPOP3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="MainClientPOP3" />
       <module name="untitled" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -177,20 +200,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SecondMainClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="SecondMainClient" />
-      <module name="untitled" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MainClientPOP3" />
         <item itemvalue="Application.MainClientSmtp" />
         <item itemvalue="Application.MainServerThreadPool" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.MainServerMulti" />
-        <item itemvalue="Application.SecondMainClient" />
       </list>
     </recent_temporary>
   </component>
@@ -205,18 +221,18 @@
       <option name="presentableId" value="Default" />
       <updated>1553153834735</updated>
       <workItem from="1553153840159" duration="10591000" />
-      <workItem from="1553759963754" duration="2928000" />
+      <workItem from="1553759963754" duration="7635000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="13519000" />
+    <option name="totallyTimeSpent" value="18226000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-5" y="26" width="1690" height="1005" extended-state="6" />
+    <frame x="0" y="26" width="840" height="1000" extended-state="4" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.10146699" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.21119593" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -225,7 +241,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32687926" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32646048" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -233,9 +249,9 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.32915717" />
+      <window_info anchor="bottom" id="Terminal" order="10" weight="0.33104238" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="12" />
+      <window_info anchor="bottom" id="Messages" order="12" weight="0.3298969" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -353,15 +369,32 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/MainClientSmtp.java">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="3" lean-forward="true" selection-start-line="3" selection-start-column="3" selection-end-line="10" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/MainClientPOP3.java">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
-          <caret line="5" column="44" selection-start-line="5" selection-start-column="44" selection-end-line="5" selection-end-column="44" />
+          <caret line="5" column="36" selection-start-line="5" selection-start-column="36" selection-end-line="5" selection-end-column="36" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/ClientSmtp.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-901">
-          <caret line="33" column="33" lean-forward="true" selection-start-line="33" selection-start-column="33" selection-end-line="33" selection-end-column="33" />
+        <state relative-caret-position="-555">
+          <caret line="26" selection-start-line="26" selection-end-line="26" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ClientPOP3.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="313">
+          <caret line="78" column="32" selection-start-line="78" selection-start-column="32" selection-end-line="78" selection-end-column="32" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
